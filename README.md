@@ -1,14 +1,13 @@
 # Learn-HTML
 🚀 Learn HTML with Me! 🚀  I'm learning HTML from Bro Code and sharing everything here! This repo covers HTML basics, forms, tables, media, semantic tags, and mini projects. Perfect for beginners who want to learn along with me. Feel free to contribute, ask questions, or follow along! Let's code! 💻🔥
-# Learn HTML & CSS from Basics 🚀  
+# Learn HTML from Basics 🚀  
 
 Welcome to my **HTML Learning Repository!** 👨‍💻🔥  
 
 I’m learning **HTML** from scratch and sharing my progress here to help others learn alongside me. This repository contains beginner-friendly **code examples, explanations, and projects** to help you get started with web development.  
 
 ## 📌 What You'll Find Here  
-✅ **Basic HTML & CSS Concepts** (Headings, Paragraphs, Links, Images, Forms, etc.)  
-✅ **Styling with CSS** (Selectors, Colors, Fonts, Box Model, Flexbox, Grid)  
+✅ **Basic HTML** (Headings, Paragraphs, Links, Images, Forms, etc.)   
 ✅ **Real-World Mini Projects** (Simple Webpages, Forms, Navigation Bars)  
 ✅ **Daily Updates** – Follow along as I learn!  
 
