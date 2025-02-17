@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Forms allow users to input data and submit it to the server -->
+    <!-- The action attribute specifies where to send the form data (index.php in this case) -->
+    <!-- The method attribute determines how data is sent: 
+        - GET: Appends form data to the URL (not secure, good for search queries)
+        - POST: Sends data in the request body (more secure, used for login, file uploads, etc.) -->
+    
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        
+        <!-- Username Input Field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="satyam" minlength="6" maxlength="15" required><br>
+
+        <!-- Password Input Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <!-- Email Input Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="bhatt@gmail.com"><br>
+
+        <!-- Phone Number Input Field -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}"><br>
+
+        <!-- Birthdate Input Field -->
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate"><br>
+
+        <!-- Number Input Field for Quantity -->
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1"><br>
+
+        <!-- Radio Buttons for Title Selection (Only one can be selected) -->
+        <label>Title:</label>
+        <input type="radio" id="mr" name="title" value="MR.">
+        <label for="mr">MR.</label>
+        <input type="radio" id="mrs" name="title" value="MRS.">
+        <label for="mrs">MRS.</label>
+        <input type="radio" id="ms" name="title" value="MS.">
+        <label for="ms">MS.</label><br>
+
+        <!-- Dropdown for Payment Method Selection -->
+        <label for="payment">Payment:</label>
+        <select id="payment" name="payment">
+            <option value="debit">Debit</option>
+            <option value="credit">Credit</option>
+            <option value="cash">Cash</option>
+        </select><br>
+
+        <!-- Checkbox for Subscription -->
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+
+        <!-- Textarea for Comments -->
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="3" cols="25" placeholder="Write your comment here"></textarea><br>
+
+        <!-- File Upload Field -->
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="file" accept="image/png, image/jpeg"><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit"><br>
+
+        <!-- Reset Button (Clears all inputs) -->
+        <input type="reset" value="Reset"><br>
+
+    </form>
+</body>
+</html>
